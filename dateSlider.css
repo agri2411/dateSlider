@@ -437,3 +437,86 @@ a.ui-datepicker-next.ui-corner-all.pointer_disable{
 .disable_slider{
     background-color:#8995A5!important;
 } 
+ #slider-range{
+    background: #f3f5f6 !important;
+    /* border-radius: 43px !important; */
+    top: 5px !important;
+    border-radius: 10px !important;
+    border: 1px #ffffff !important;
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(255,255,255,1);
+    box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.5) !important;
+    padding-top: 0px !important;
+    pointer-events: none!important;
+    padding-left: 0px!important;
+    background-color: #fff!important;
+    border: 1px #5b7fa2!important;
+}
+   .ui-slider-horizontal, #ticks div {
+    height: 5px !important;
+}
+
+.date_picker_container>div:first-child {
+    min-width: 65% !important;
+    max-width: 90% !important;
+}
+.ui-slider-horizontal .ui-slider-range {
+    height: 5px !important;
+    top: 0px !important;
+    border-radius: 0px!important;
+}
+
+.ui-widget-header {
+    background-color: #3d648c!important;
+    border: 1px solid rgb(149, 154, 161) !important;
+}
+#slider-range .ui-state-default {
+    width: 10px !important;
+    height: 18px !important;
+    top: -7px !important;
+    border-radius: 0px!important;
+    background: #25476a!important;
+    z-index: 999!important;
+    transition: all .1s ease;
+    border: 1px solid #959aa1!important;
+}
+
+#sliderLabels label, #year label {
+    font-size: 12px;
+    color: #545454!important;
+}
+#sliderLabels label.hlgt {
+    color: #f1faee!important;
+    font-size: 12px!important;
+}
+
+.ui-slider-range, .ui-slider-handle {
+    pointer-events: auto!important;
+}
+/************* Date Slider Changes ***********************/
+/************ =============== Date Component Changes start here ================ **************/
+.ui-slider-range, .ui-slider-handle {
+    pointer-events: auto!important;
+}
+.date-range-selector-block .range-display {
+    color: #fff!important;
+    font-size:13px!important;
+    background-color: #25476a!important;
+    line-height: 23px!important;
+    padding: 5px 5px 5px 37px !important;
+    border-radius: 5px;
+    width: calc(100% + 10px)!important;
+}
+.selectors-body {
+    text-align: left;
+}
+.date-range-selector-block .range-display:before{
+    left:7px!important;
+}
+/*.sliderDisable{
+    pointer-events: none!important;
+    opacity: 0.4;
+}*/
+.date-range-selector-block .date-range-selector-dropdown {
+    width: calc(100% + 10px)!important;
+}
